@@ -17,6 +17,10 @@ public class FizzBuzz {
         finalOutput += this.assessNumber(inputNumber, 5, "Buzz");
         finalOutput += this.assessNumber(inputNumber, 7, "Bang");
 
+        if (inputNumber % 11 == 0) {
+            finalOutput = this.assessNumber(inputNumber, 11, "Bong");
+        }
+
         if (finalOutput.length() == 0) {
             finalOutput = Integer.toString(inputNumber);
         }

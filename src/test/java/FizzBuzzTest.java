@@ -31,7 +31,7 @@ public class FizzBuzzTest {
     @Test
     public void runFizzBuzz1() {
         FizzBuzz fb = new FizzBuzz();
-        assertEquals("", fb.runFizzBuzz(1));
+        assertEquals("1", fb.runFizzBuzz(1));
     }
 
     @Test
@@ -74,5 +74,17 @@ public class FizzBuzzTest {
     public void runFizzBuzz105() {
         FizzBuzz fb = new FizzBuzz();
         assertEquals("FizzBuzzBang", fb.runFizzBuzz(105));
+    }
+
+    @Test
+    public void runFizzBuzz11() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("Bong", fb.runFizzBuzz(11));
+    }
+
+    @Test
+    public void runFizzBuzz55() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("Bong", fb.runFizzBuzz(55));
     }
 }
