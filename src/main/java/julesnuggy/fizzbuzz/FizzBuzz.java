@@ -22,15 +22,15 @@ public class FizzBuzz {
 
     public String calculateExtra(int myNumber) {
         String originalOutput, myOutput;
-        Boolean tempIsFizzBuzz;
+        Boolean outputIsFizzBuzz;
 
         originalOutput = this.calculateOriginal(myNumber);
-        tempIsFizzBuzz = (originalOutput == "Fizz" || originalOutput == "Buzz" || originalOutput == "FizzBuzz") ? true : false;
+        outputIsFizzBuzz = originalOutput.equals("Fizz")||originalOutput.equals("Buzz")||originalOutput.equals("FizzBuzz");
 
-        if (myNumber % 7 == 0 && !tempIsFizzBuzz) {
+        if (myNumber % 7 == 0 && !outputIsFizzBuzz) {
             myOutput = "Bang";
         }
-        else if (myNumber % 7 == 0 && tempIsFizzBuzz) {
+        else if (myNumber % 7 == 0 && outputIsFizzBuzz) {
             myOutput = originalOutput + "Bang";
         }
         else {
