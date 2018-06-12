@@ -22,7 +22,6 @@ public class FizzBuzzTest {
         assertEquals("Buzz", fb.calculate(5));
     }
 
-
     @Test
     public void returnsFizzBuzz() {
         FizzBuzz fb = new FizzBuzz();

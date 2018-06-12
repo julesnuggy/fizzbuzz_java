@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         FizzBuzz fb = new FizzBuzz();
-        System.out.print(fb.calculate(10));
+        for (int i=1; i<=100; i++) {
+            System.out.println(fb.calculate(i));
+        }
     }
 }
