@@ -51,4 +51,15 @@ public class FizzBuzzTest {
         FizzBuzz fb = new FizzBuzz();
         assertEquals("FizzBuzzBang", fb.calculateExtra(105));
     }
+
+    @Test
+    public void assessNumberReturnsNothing() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("", fb.assessNumber(1, 3, "Fizz"));
+    }
+
+    public void assessNumberReturnsFizz() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("Fizz", fb.assessNumber(3, 3, "Fizz"));
+    }
 }

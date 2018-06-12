@@ -38,5 +38,16 @@ public class FizzBuzz {
         }
         return myOutput;
     }
+
+    public String assessNumber(int inputNumber, int assessNumber, String outputString) {
+        if (inputNumber % assessNumber == 0) {
+            return outputString;
+        }
+        else {
+            return "";
+        }
+
+    }
+
 }
 
