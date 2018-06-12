@@ -58,8 +58,45 @@ public class FizzBuzzTest {
         assertEquals("", fb.assessNumber(1, 3, "Fizz"));
     }
 
+    @Test
     public void assessNumberReturnsFizz() {
         FizzBuzz fb = new FizzBuzz();
         assertEquals("Fizz", fb.assessNumber(3, 3, "Fizz"));
+    }
+
+    @Test
+    public void assessNumberReturnsBuzz() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("Buzz", fb.assessNumber(5, 5, "Buzz"));
+    }
+
+    @Test
+    public void assessNumberReturnsBang() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("Bang", fb.assessNumber(7, 7, "Bang"));
+    }
+
+    @Test
+    public void runFizzBuzz1() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("", fb.runFizzBuzz(1));
+    }
+
+    @Test
+    public void runFizzBuzz3() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("Fizz", fb.runFizzBuzz(3));
+    }
+
+    @Test
+    public void runFizzBuzz5() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("Buzz", fb.runFizzBuzz(5));
+    }
+
+    @Test
+    public void runFizzBuzz15() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("FizzBuzz", fb.runFizzBuzz(15));
     }
 }

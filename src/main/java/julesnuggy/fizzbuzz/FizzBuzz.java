@@ -46,8 +46,16 @@ public class FizzBuzz {
         else {
             return "";
         }
-
     }
 
+    public String runFizzBuzz(int inputNumber) {
+        String finalOutput = "";
+
+        finalOutput += this.assessNumber(inputNumber, 3, "Fizz");
+        finalOutput += this.assessNumber(inputNumber, 5, "Buzz");
+        finalOutput += this.assessNumber(inputNumber, 7, "Bong");
+
+        return finalOutput;
+    }
 }
 
