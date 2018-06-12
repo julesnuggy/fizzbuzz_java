@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="996e9ea6-c632-4da1-b0cd-cb80f3f9a92b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FizzBuzz/julesnuggy/fizzbuzz/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/julesnuggy/fizzbuzz/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +18,8 @@
       <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,13 +209,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.returnsNumberAsString">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="julesnuggy.fizzbuzz.Main" />
       <module name="FizzBuzz" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzz" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="FizzBuzzTest.printsToConsole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzz" />
@@ -261,9 +272,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.FizzBuzzTest.printsToConsole" />
       <item itemvalue="JUnit.FizzBuzzTest.returnsNumberAsString" />
+      <item itemvalue="JUnit.FizzBuzzTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.FizzBuzzTest.returnsNumberAsString" />
         <item itemvalue="JUnit.FizzBuzzTest.printsToConsole" />
         <item itemvalue="Application.Main" />
@@ -280,7 +293,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528730677795</updated>
-      <workItem from="1528730681636" duration="6940000" />
+      <workItem from="1528730681636" duration="7021000" />
     </task>
     <servers />
   </component>
@@ -294,9 +307,21 @@
     <history-entry file="FizzBuzzTest_printsToConsole - 2018.06.12 at 10h 04m 01s.xml">
       <configuration name="FizzBuzzTest.printsToConsole" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest_printsToConsole - 2018.06.12 at 10h 05m 00s.xml">
+      <configuration name="FizzBuzzTest.printsToConsole" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_returnsNumberAsString - 2018.06.12 at 10h 05m 11s.xml">
+      <configuration name="FizzBuzzTest.returnsNumberAsString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2018.06.12 at 10h 05m 50s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2018.06.12 at 10h 06m 09s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6940000" />
+    <option name="totallyTimeSpent" value="7021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -402,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

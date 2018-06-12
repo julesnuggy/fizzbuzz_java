@@ -9,4 +9,10 @@ public class FizzBuzzTest {
         FizzBuzz fb = new FizzBuzz();
         assertEquals("1", fb.calculate(1));
     }
+
+    @Test
+    public void returnsFizz() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("Fizz", fb.calculate(3));
+    }
 }
