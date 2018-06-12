@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="996e9ea6-c632-4da1-b0cd-cb80f3f9a92b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +26,8 @@
           <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="582">
-                  <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+                <state relative-caret-position="374">
+                  <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -34,8 +35,8 @@
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -47,8 +48,8 @@
           <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="701">
-                  <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -81,9 +82,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Fizzbuzz.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
       </list>
     </option>
   </component>
@@ -203,13 +204,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="julesnuggy.fizzbuzz.Main" />
       <module name="FizzBuzz" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="julesnuggy.fizzbuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzz" />
@@ -228,13 +232,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.runFizzBuzz1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.runFizzBuzz105" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzz" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="runFizzBuzz1" />
+      <option name="METHOD_NAME" value="runFizzBuzz105" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -245,13 +249,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.runFizzBuzz3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.runFizzBuzz21" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzz" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="runFizzBuzz3" />
+      <option name="METHOD_NAME" value="runFizzBuzz21" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -262,13 +266,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.testAssessNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.runFizzBuzz7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzz" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="testAssessNumber" />
+      <option name="METHOD_NAME" value="runFizzBuzz7" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -280,19 +284,19 @@
       <patterns />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.FizzBuzzTest.testAssessNumber" />
       <item itemvalue="JUnit.FizzBuzzTest" />
-      <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz1" />
-      <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz3" />
+      <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz7" />
+      <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz21" />
+      <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz105" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz3" />
-        <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz1" />
-        <item itemvalue="JUnit.FizzBuzzTest.testAssessNumber" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz105" />
+        <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz21" />
+        <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz7" />
       </list>
     </recent_temporary>
   </component>
@@ -306,29 +310,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528730677795</updated>
-      <workItem from="1528730681636" duration="15044000" />
+      <workItem from="1528730681636" duration="15328000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest_returnsFizzBang - 2018.06.12 at 11h 52m 03s.xml">
-      <configuration name="FizzBuzzTest.returnsFizzBang" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_returnsBuzzBang - 2018.06.12 at 11h 54m 19s.xml">
-      <configuration name="FizzBuzzTest.returnsBuzzBang" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_returnsBuzzBang - 2018.06.12 at 11h 54m 32s.xml">
-      <configuration name="FizzBuzzTest.returnsBuzzBang" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_returnsFizzBuzzBang - 2018.06.12 at 11h 54m 36s.xml">
-      <configuration name="FizzBuzzTest.returnsFizzBuzzBang" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_testAssessNumber - 2018.06.12 at 13h 44m 34s.xml">
-      <configuration name="FizzBuzzTest.testAssessNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.06.12 at 13h 45m 05s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzTest - 2018.06.12 at 13h 49m 17s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
@@ -341,9 +327,27 @@
     <history-entry file="FizzBuzzTest_runFizzBuzz3 - 2018.06.12 at 13h 52m 34s.xml">
       <configuration name="FizzBuzzTest.runFizzBuzz3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest_runFizzBuzz3 - 2018.06.12 at 13h 53m 13s.xml">
+      <configuration name="FizzBuzzTest.runFizzBuzz3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2018.06.12 at 13h 53m 18s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_runFizzBuzz7 - 2018.06.12 at 13h 54m 19s.xml">
+      <configuration name="FizzBuzzTest.runFizzBuzz7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_runFizzBuzz21 - 2018.06.12 at 13h 54m 39s.xml">
+      <configuration name="FizzBuzzTest.runFizzBuzz21" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_runFizzBuzz105 - 2018.06.12 at 13h 55m 15s.xml">
+      <configuration name="FizzBuzzTest.runFizzBuzz105" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2018.06.12 at 13h 56m 15s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15044000" />
+    <option name="totallyTimeSpent" value="15328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
@@ -568,27 +572,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
