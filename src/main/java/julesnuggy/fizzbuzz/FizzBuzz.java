@@ -14,11 +14,13 @@ public class FizzBuzz {
         String finalOutput = "";
 
         finalOutput += this.assessNumber(inputNumber, 3, "Fizz");
+        finalOutput += this.assessNumber(inputNumber, 13, "Fezz");
         finalOutput += this.assessNumber(inputNumber, 5, "Buzz");
         finalOutput += this.assessNumber(inputNumber, 7, "Bang");
 
         if (inputNumber % 11 == 0) {
-            finalOutput = this.assessNumber(inputNumber, 11, "Bong");
+            finalOutput = this.assessNumber(inputNumber, 13, "Fezz");
+            finalOutput += this.assessNumber(inputNumber, 11, "Bong");
         }
 
         if (finalOutput.length() == 0) {
