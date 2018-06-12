@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 public class FizzBuzzTest {
     @Test
-    public void assessNumberReturnsNothing() {
+    public void assessNumberReturnsNumber() {
         FizzBuzz fb = new FizzBuzz();
         assertEquals("", fb.assessNumber(1, 3, "Fizz"));
     }
@@ -117,4 +117,17 @@ public class FizzBuzzTest {
         FizzBuzz fb = new FizzBuzz();
         assertEquals("FezzBong", fb.runFizzBuzz(143));
     }
+
+    @Test
+    public void runFizzBuzz255() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("BuzzFizz", fb.runFizzBuzz(255));
+    }
+
+    @Test
+    public void runFizzBuzz2431() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("BongFezz", fb.runFizzBuzz(2431));
+    }
+
 }
