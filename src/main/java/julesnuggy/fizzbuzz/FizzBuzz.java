@@ -21,20 +21,20 @@ public class FizzBuzz {
     }
 
     public String calculateExtra(int myNumber) {
-        String temp, myOutput;
+        String originalOutput, myOutput;
         Boolean tempIsFizzBuzz;
 
-        temp = this.calculateOriginal(myNumber);
-        tempIsFizzBuzz = (temp == "Fizz" || temp == "Buzz" || temp == "FizzBuzz") ? true : false;
+        originalOutput = this.calculateOriginal(myNumber);
+        tempIsFizzBuzz = (originalOutput == "Fizz" || originalOutput == "Buzz" || originalOutput == "FizzBuzz") ? true : false;
 
         if (myNumber % 7 == 0 && !tempIsFizzBuzz) {
             myOutput = "Bang";
         }
         else if (myNumber % 7 == 0 && tempIsFizzBuzz) {
-            myOutput = temp + "Bang";
+            myOutput = originalOutput + "Bang";
         }
         else {
-            myOutput = Integer.toString(myNumber);
+            myOutput = originalOutput;
         }
         return myOutput;
     }

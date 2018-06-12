@@ -33,4 +33,22 @@ public class FizzBuzzTest {
         FizzBuzz fb = new FizzBuzz();
         assertEquals("Bang", fb.calculateExtra(7));
     }
+
+    @Test
+    public void returnsFizzBang() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("FizzBang", fb.calculateExtra(21));
+    }
+
+    @Test
+    public void returnsBuzzBang() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("BuzzBang", fb.calculateExtra(35));
+    }
+
+    @Test
+    public void returnsFizzBuzzBang() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("FizzBuzzBang", fb.calculateExtra(105));
+    }
 }
