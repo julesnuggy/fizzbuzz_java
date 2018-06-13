@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="996e9ea6-c632-4da1-b0cd-cb80f3f9a92b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,83 +19,20 @@
     <SUITE FILE_PATH="coverage/FizzBuzz$FizzBuzzTest.ic" NAME="FizzBuzzTest Coverage Results" MODIFIED="1528796503125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49010417">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
-                  <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="43" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#386#394#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3140">
-                  <caret line="193" column="37" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="37" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FizzBuzzBangStream.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="91" lean-forward="true" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="646" column="9" selection-start-line="646" selection-start-column="9" selection-end-line="646" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="510">
+                <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,11 +62,11 @@
         <option value="$PROJECT_DIR$/src/julesnuggy/fizzbuzz/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Fizzbuzz.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -398,7 +336,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34924000" />
+    <option name="totallyTimeSpent" value="35972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
@@ -414,12 +352,12 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3185674" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3185674" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32987747" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.18020834" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18020834" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32987747" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -721,16 +659,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/FizzBuzz/julesnuggy/fizzbuzz/Main.class" />
     <entry file="file://$PROJECT_DIR$/src/julesnuggy/fizzbuzz/MainTest.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -822,10 +750,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="273">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="646" column="9" selection-start-line="646" selection-start-column="9" selection-end-line="646" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -842,17 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="43" />
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#386#394#0" expanded="true" />
@@ -860,20 +795,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="646" column="9" selection-start-line="646" selection-start-column="9" selection-end-line="646" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="91" lean-forward="true" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+        <state relative-caret-position="488">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
