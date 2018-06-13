@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="996e9ea6-c632-4da1-b0cd-cb80f3f9a92b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/julesnuggy/fizzbuzz/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +21,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.49010417">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+                <state relative-caret-position="629">
+                  <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#386#394#0" expanded="true" />
@@ -35,11 +34,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="259">
-                  <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -51,11 +50,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+                <state relative-caret-position="3140">
+                  <caret line="193" column="37" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -63,14 +62,32 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FizzBuzzBangStream.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="FizzBuzzBangStream.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="91" lean-forward="true" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="232">
+                  <caret line="646" column="9" selection-start-line="646" selection-start-column="9" selection-end-line="646" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -108,10 +125,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Fizzbuzz.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java" />
       </list>
     </option>
   </component>
@@ -245,7 +262,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.FizzBuzzBangStream">
+    <configuration name="FizzBuzzBangStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="julesnuggy.fizzbuzz.FizzBuzzBangStream" />
+      <module name="FizzBuzz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="julesnuggy.fizzbuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="julesnuggy.fizzbuzz.Main" />
       <module name="FizzBuzz" />
@@ -264,23 +291,6 @@
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FizzBuzzTest.runFizzBuzz1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FizzBuzz" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="runFizzBuzz1" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -326,18 +336,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.FizzBuzzTest" />
-      <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz1" />
       <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz3" />
       <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzzWithWrongRule" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.FizzBuzzBangStream" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FizzBuzzBangStream" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz3" />
         <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzzWithWrongRule" />
-        <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz1" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +398,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33233000" />
+    <option name="totallyTimeSpent" value="34924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
@@ -404,14 +414,14 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32610744" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3185674" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32987747" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
       <window_info content_ui="combo" id="Project" order="5" weight="0.18020834" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32987747" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -812,27 +822,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="136">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3140">
+          <caret line="193" column="37" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="629">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#386#394#0" expanded="true" />
@@ -840,20 +860,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="232">
+          <caret line="646" column="9" selection-start-line="646" selection-start-column="9" selection-end-line="646" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+        <state relative-caret-position="391">
+          <caret line="23" column="91" lean-forward="true" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

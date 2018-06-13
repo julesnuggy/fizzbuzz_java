@@ -16,7 +16,7 @@ public class FizzBuzz {
     }
 
     public String runFizzBuzz(int inputNumber, List<Integer> rulesToApply) {
-        String finalOutput = "";
+        String finalOutput;
         List<String> wordList = new ArrayList<String>();
 
         if (inputNumber % 11 == 0) {
