@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         FizzBuzz fb = new FizzBuzz();
         Scanner userInput = new Scanner(System.in);
         System.out.print("Enter the number to run FizzBuzz up to: ");
@@ -25,5 +25,10 @@ public class Main {
         for (int i=1; i<=maxNumber; i++) {
             System.out.println(fb.runFizzBuzz(i, rule3, rule5, rule7, rule11, rule13, rule17));
         }
+    }
+
+    public static void main(String[] args) {
+        FizzBuzzBangStream fb = new FizzBuzzBangStream();
+        fb.create();
     }
 }

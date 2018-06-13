@@ -5,36 +5,6 @@ import static org.junit.Assert.assertEquals;
 
 public class FizzBuzzTest {
     @Test
-    public void assessNumberReturnsEmptyString() {
-        FizzBuzz fb = new FizzBuzz();
-        assertEquals("", fb.assessNumber(1, 3, "Fizz", true));
-    }
-
-    @Test
-    public void assessNumberReturnsFizz() {
-        FizzBuzz fb = new FizzBuzz();
-        assertEquals("Fizz", fb.assessNumber(3, 3, "Fizz", true));
-    }
-
-    @Test
-    public void assessNumberReturnsBuzz() {
-        FizzBuzz fb = new FizzBuzz();
-        assertEquals("Buzz", fb.assessNumber(5, 5, "Buzz", true));
-    }
-
-    @Test
-    public void assessNumberReturnsBang() {
-        FizzBuzz fb = new FizzBuzz();
-        assertEquals("Bang", fb.assessNumber(7, 7, "Bang", true));
-    }
-
-    @Test
-    public void assessNumberReturnsEmptyStringWhenInactive() {
-        FizzBuzz fb = new FizzBuzz();
-        assertEquals("", fb.assessNumber(3, 3, "Fizz", false));
-    }
-
-    @Test
     public void runFizzBuzz1() {
         FizzBuzz fb = new FizzBuzz();
         assertEquals("1", fb.runFizzBuzz(1, true, true, true, true, true, true));
