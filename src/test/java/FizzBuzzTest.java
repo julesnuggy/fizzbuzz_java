@@ -1,7 +1,13 @@
 import julesnuggy.fizzbuzz.FizzBuzz;
 import org.junit.Test;
 
+import java.util.LinkedList;
+import java.util.List;
+
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 public class FizzBuzzTest {
     @Test
@@ -104,6 +110,31 @@ public class FizzBuzzTest {
     public void runFizzBuzz2431() {
         FizzBuzz fb = new FizzBuzz();
         assertEquals("BongFezz", fb.runFizzBuzz(2431, true, true, true, true, true, true));
+    }
+
+    @Test
+    public void setNoRules() {
+        FizzBuzz fb = new FizzBuzz();
+        List<Integer> expectedResult = new LinkedList<>();
+        assertThat(expectedResult, is(fb.setRules()));
+    }
+
+    @Test
+    public void setSingleRule() {
+        FizzBuzz fb = new FizzBuzz();
+        List<Integer> expectedResult = new LinkedList<>();
+        expectedResult.add(3);
+        assertThat(expectedResult, is(fb.setRules(3)));
+    }
+    @Test
+    public void setManyRules() {
+        FizzBuzz fb = new FizzBuzz();
+        List<Integer> expectedResult = new LinkedList<>();
+        expectedResult.add(3);
+        expectedResult.add(5);
+        expectedResult.add(7);
+        assertThat(expectedResult, is(fb.setRules(3,5,7)));
+
     }
 
 }
