@@ -42,8 +42,8 @@ public class FizzBuzz {
         return finalOutput;
     }
 
-    private String evaluateOutput(int inputNumber, int assessNumber, String outputString, Boolean ruleActive) {
-        if (inputNumber % assessNumber == 0 && ruleActive == true) {
+    private String evaluateOutput(int inputNumber, int ruleNumber, String outputString, List<Integer> ruleActive) {
+        if (inputNumber % ruleNumber == 0 && ruleActive.contains(ruleNumber)) {
             return outputString;
         } else {
             return "";
