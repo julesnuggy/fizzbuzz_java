@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="996e9ea6-c632-4da1-b0cd-cb80f3f9a92b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,27 +18,30 @@
     <SUITE FILE_PATH="coverage/FizzBuzz$FizzBuzzTest.ic" NAME="FizzBuzzTest Coverage Results" MODIFIED="1528796503125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.49010417">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="94" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="94" />
+                <state relative-caret-position="629">
+                  <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#449#457#0" expanded="true" />
+                    <element signature="e#386#394#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -49,14 +50,44 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+                <state relative-caret-position="3140">
+                  <caret line="193" column="37" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FizzBuzzBangStream.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="23" column="91" lean-forward="true" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="232">
+                  <caret line="646" column="9" selection-start-line="646" selection-start-column="9" selection-end-line="646" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -72,6 +103,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>true, true, true, true, true, true</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>testRules</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java" />
       </list>
     </option>
   </component>
@@ -104,6 +144,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FizzBuzz" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -187,6 +238,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -208,7 +262,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
+  <component name="RunManager" selected="Application.FizzBuzzBangStream">
+    <configuration name="FizzBuzzBangStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="julesnuggy.fizzbuzz.FizzBuzzBangStream" />
+      <module name="FizzBuzz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="julesnuggy.fizzbuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="julesnuggy.fizzbuzz.Main" />
       <module name="FizzBuzz" />
@@ -236,13 +300,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.assessNumberReturnsEmptyStringWhenInactive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.runFizzBuzz3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzz" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="assessNumberReturnsEmptyStringWhenInactive" />
+      <option name="METHOD_NAME" value="runFizzBuzz3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -253,30 +317,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.runFizzBuzz1255" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.runFizzBuzzWithWrongRule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzz" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="runFizzBuzz1255" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FizzBuzzTest.runFizzBuzz2431" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FizzBuzz" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="runFizzBuzz2431" />
+      <option name="METHOD_NAME" value="runFizzBuzzWithWrongRule" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -289,18 +336,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.FizzBuzzTest" />
+      <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz3" />
+      <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzzWithWrongRule" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz1255" />
-      <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz2431" />
-      <item itemvalue="JUnit.FizzBuzzTest.assessNumberReturnsEmptyStringWhenInactive" />
+      <item itemvalue="Application.FizzBuzzBangStream" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.assessNumberReturnsEmptyStringWhenInactive" />
+        <item itemvalue="Application.FizzBuzzBangStream" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz2431" />
-        <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz1255" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzz3" />
+        <item itemvalue="JUnit.FizzBuzzTest.runFizzBuzzWithWrongRule" />
       </list>
     </recent_temporary>
   </component>
@@ -314,44 +361,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528730677795</updated>
-      <workItem from="1528730681636" duration="21008000" />
+      <workItem from="1528730681636" duration="25338000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest - 2018.06.12 at 16h 59m 41s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.06.12 at 16h 59m 46s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_runFizzBuzz1255 - 2018.06.12 at 17h 00m 27s.xml">
-      <configuration name="FizzBuzzTest.runFizzBuzz1255" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_runFizzBuzz1255 - 2018.06.12 at 17h 00m 30s.xml">
-      <configuration name="FizzBuzzTest.runFizzBuzz1255" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.06.12 at 17h 00m 53s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_runFizzBuzz2431 - 2018.06.12 at 17h 02m 05s.xml">
-      <configuration name="FizzBuzzTest.runFizzBuzz2431" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_runFizzBuzz1 - 2018.06.12 at 17h 02m 15s.xml">
+    <history-entry file="FizzBuzzTest_runFizzBuzz1 - 2018.06.13 at 13h 38m 18s.xml">
       <configuration name="FizzBuzzTest.runFizzBuzz1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_runFizzBuzz2431 - 2018.06.12 at 17h 02m 23s.xml">
-      <configuration name="FizzBuzzTest.runFizzBuzz2431" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_runFizzBuzz1 - 2018.06.13 at 13h 38m 27s.xml">
+      <configuration name="FizzBuzzTest.runFizzBuzz1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.06.12 at 17h 21m 21s.xml">
+    <history-entry file="FizzBuzzTest_runFizzBuzz3 - 2018.06.13 at 13h 39m 06s.xml">
+      <configuration name="FizzBuzzTest.runFizzBuzz3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_runFizzBuzz3 - 2018.06.13 at 13h 39m 11s.xml">
+      <configuration name="FizzBuzzTest.runFizzBuzz3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_runFizzBuzzWithWrongRule - 2018.06.13 at 13h 39m 45s.xml">
+      <configuration name="FizzBuzzTest.runFizzBuzzWithWrongRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_runFizzBuzzWithWrongRule - 2018.06.13 at 13h 39m 52s.xml">
+      <configuration name="FizzBuzzTest.runFizzBuzzWithWrongRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_runFizzBuzz3 - 2018.06.13 at 13h 41m 13s.xml">
+      <configuration name="FizzBuzzTest.runFizzBuzz3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2018.06.13 at 13h 54m 13s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.06.12 at 17h 23m 30s.xml">
+    <history-entry file="FizzBuzzTest - 2018.06.13 at 13h 54m 27s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2018.06.13 at 14h 51m 01s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21008000" />
+    <option name="totallyTimeSpent" value="34924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
@@ -364,58 +411,82 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32610744" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3185674" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32987747" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
       <window_info content_ui="combo" id="Project" order="5" weight="0.18020834" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32987747" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.399623" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-    </layout>
-    <layout-to-restore>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info id="Designer" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32987747" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.399623" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18020834" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32987747" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32610744" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.399623" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.27426955" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.18020834" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32610744" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18020834" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32987747" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.399623" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.27426955" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3296875" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -587,21 +658,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="94" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#449#457#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="265">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -610,10 +677,281 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+        <state relative-caret-position="527">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FizzBuzz.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/project-template.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/FizzBuzz/julesnuggy/fizzbuzz/Main.class" />
+    <entry file="file://$PROJECT_DIR$/src/julesnuggy/fizzbuzz/MainTest.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="563" selection-start-line="563" selection-end-line="563" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="166" column="60" selection-start-line="166" selection-start-column="27" selection-end-line="166" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3140">
+          <caret line="193" column="37" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="646" column="9" selection-start-line="646" selection-start-column="9" selection-end-line="646" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/julesnuggy/fizzbuzz/FizzBuzzBangStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="91" lean-forward="true" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FizzBuzz</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

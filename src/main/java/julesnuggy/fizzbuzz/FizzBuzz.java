@@ -1,35 +1,35 @@
 package julesnuggy.fizzbuzz;
 
-import java.util.Collections;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 public class FizzBuzz {
-    public String assessNumber(int inputNumber, int assessNumber, String outputString, Boolean ruleActive) {
-        if (inputNumber % assessNumber == 0 && ruleActive == true) {
-            return outputString;
+    public List<Integer> setRules(int ... ruleNumber) {
+        List<Integer> rulesList = new LinkedList<>();
+
+        for (int i: ruleNumber) {
+            rulesList.add(i);
         }
-        else {
-            return "";
-        }
+        return rulesList;
     }
 
-    public String runFizzBuzz(int inputNumber, Boolean rule3, Boolean rule5, Boolean rule7, Boolean rule11,
-                              Boolean rule13, Boolean rule17) {
-        String finalOutput = "";
-        ArrayList<String> wordList = new ArrayList<String>();
+    public String runFizzBuzz(int inputNumber, List<Integer> rulesToApply) {
+        String finalOutput;
+        List<String> wordList = new ArrayList<String>();
 
         if (inputNumber % 11 == 0) {
-            wordList.add(this.assessNumber(inputNumber, 13, "Fezz", rule13));
-            wordList.add(this.assessNumber(inputNumber, 11, "Bong", rule11));
-        }
-        else {
-            wordList.add(this.assessNumber(inputNumber, 3, "Fizz", rule3));
-            wordList.add(this.assessNumber(inputNumber, 13, "Fezz", rule13));
-            wordList.add(this.assessNumber(inputNumber, 5, "Buzz", rule5));
-            wordList.add(this.assessNumber(inputNumber, 7, "Bang", rule7));
+            wordList.add(this.evaluateOutput(inputNumber, 13, "Fezz", rulesToApply));
+            wordList.add(this.evaluateOutput(inputNumber, 11, "Bong", rulesToApply));
+        } else {
+            wordList.add(this.evaluateOutput(inputNumber, 3, "Fizz", rulesToApply));
+            wordList.add(this.evaluateOutput(inputNumber, 13, "Fezz", rulesToApply));
+            wordList.add(this.evaluateOutput(inputNumber, 5, "Buzz", rulesToApply));
+            wordList.add(this.evaluateOutput(inputNumber, 7, "Bang", rulesToApply));
         }
 
-        if (inputNumber % 17 == 0 && rule17 == true) {
+        if (inputNumber % 17 == 0 && rulesToApply.contains(17)) {
             Collections.reverse(wordList);
         }
 
@@ -40,6 +40,14 @@ public class FizzBuzz {
         }
 
         return finalOutput;
+    }
+
+    private String evaluateOutput(int inputNumber, int ruleNumber, String outputString, List<Integer> ruleActive) {
+        if (inputNumber % ruleNumber == 0 && ruleActive.contains(ruleNumber)) {
+            return outputString;
+        } else {
+            return "";
+        }
     }
 }
 
